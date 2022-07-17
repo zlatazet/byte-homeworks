@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #f1f1f1;
+    padding: 30px;
+}
+
+ button {
+     background: none;
+     border: 1px solid black;
+     border-radius: 4px;
+     padding: 10px 20px;
+     font-size: 18px;
+ }
+
+ button:hover {
+    background: #245094;
+ }
+
+ button:active {
+     background: #894;
+     color: #fff;
+ }
+
+  .button {
+     text-align: center;
+ }
+
+ .slide__hide {
+     display: none;
+ }
+ .slide {
+     width: 500px;
+     height: auto;
+ }
