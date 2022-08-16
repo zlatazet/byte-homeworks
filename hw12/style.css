@@ -1,0 +1,11 @@
+.tooltip{
+    position:fixed;
+    padding: 10px 20px;
+    border: 1px solid #b3c9c3;
+    border-radius: 4px;
+    text-align: center;
+    font: italic 14px sans-serif;
+    color: #333;
+    background: #6666ff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+}
