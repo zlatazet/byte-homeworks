@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .timer-container{
+            max-width: 400px;
+            margin: 40px auto;
+        }
+        .timer-bth{
+            text-align: center;
+        }
+        .bth{
+            width: 150px;
+            height: 60px;
+            background: none;
+            border: 2px solid black;
+            font-size: 20px;
+        }
+        .bth:first-of-type{
+            margin-right: 30px;
+        }
+        .bth:active{
+            border: 2px solid red;
+            color: red;
+        }
+        .timer-style{
+            text-align: center;
+            font-size: 40px;
+        }
+
+    </style>
+</head>
+<body id="body">
+    <div class="timer-container">
+        <div class="timer-bth">
+            <button id="start" class="bth">Start</button>
+            <button id="pause" class="bth">Pause</button>
+        </div>
+        <p class="timer-style" id="timer">
+
+        </p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
